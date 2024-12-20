@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ec4dbabc07c05f29527130b209f7c1c9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ec4dbabc07c05f29527130b209f7c1c9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ec4dbabc07c05f29527130b209f7c1c9 = L.map(
+                "map_ec4dbabc07c05f29527130b209f7c1c9",
+                {
+                    center: [47.50167, -122.1356],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f4c1e7f42d65f85d8c40ca669e1b312 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4f4c1e7f42d65f85d8c40ca669e1b312.addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var marker_ba5952e4e07d813b1115e2eb44309c69 = L.marker(
+                [47.7597, -122.079],
+                {
+}
+            ).addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var icon_e087b7b8bb87c458f036d502525051b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ba5952e4e07d813b1115e2eb44309c69.setIcon(icon_e087b7b8bb87c458f036d502525051b0);
+        
+    
+        var popup_f97804107cee35d76df4630f2e7f37aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_094e26758e5484e1d5ad4d1a4fe3b49e = $(`<div id="html_094e26758e5484e1d5ad4d1a4fe3b49e" style="width: 100.0%; height: 100.0%;">ID: 7214700830, Year: 1976 Bathrooms: 4.75 Lot: 35000.0sqft  </div>`)[0];
+                popup_f97804107cee35d76df4630f2e7f37aa.setContent(html_094e26758e5484e1d5ad4d1a4fe3b49e);
+            
+        
+
+        marker_ba5952e4e07d813b1115e2eb44309c69.bindPopup(popup_f97804107cee35d76df4630f2e7f37aa)
+        ;
+
+        
+    
+    
+            var marker_5ff1c6da59762e449aa1ea0e42de4d5a = L.marker(
+                [47.4097, -122.063],
+                {
+}
+            ).addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var icon_c491e84983432be457027ec4d952de6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5ff1c6da59762e449aa1ea0e42de4d5a.setIcon(icon_c491e84983432be457027ec4d952de6b);
+        
+    
+        var popup_8cbf6c9bd0fea86d8d9d73c50c5b530a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f02abcc36c8c1620d20c393aaa1961c7 = $(`<div id="html_f02abcc36c8c1620d20c393aaa1961c7" style="width: 100.0%; height: 100.0%;">ID: 822069112, Year: 2002 Bathrooms: 4.75 Lot: 89298.0sqft  </div>`)[0];
+                popup_8cbf6c9bd0fea86d8d9d73c50c5b530a.setContent(html_f02abcc36c8c1620d20c393aaa1961c7);
+            
+        
+
+        marker_5ff1c6da59762e449aa1ea0e42de4d5a.bindPopup(popup_8cbf6c9bd0fea86d8d9d73c50c5b530a)
+        ;
+
+        
+    
+    
+            var marker_1cb5d75e1769985f29f04415a7d1f623 = L.marker(
+                [47.5669, -121.956],
+                {
+}
+            ).addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var icon_eb61bf172792097b047f93cbe53be1da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1cb5d75e1769985f29f04415a7d1f623.setIcon(icon_eb61bf172792097b047f93cbe53be1da);
+        
+    
+        var popup_5ee1c1e9e9d726d146def0482ba800a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_363923d35e3de1a873a804a1d15f7df7 = $(`<div id="html_363923d35e3de1a873a804a1d15f7df7" style="width: 100.0%; height: 100.0%;">ID: 1824079073, Year: 1999 Bathrooms: 4.25 Lot: 108464.0sqft  </div>`)[0];
+                popup_5ee1c1e9e9d726d146def0482ba800a8.setContent(html_363923d35e3de1a873a804a1d15f7df7);
+            
+        
+
+        marker_1cb5d75e1769985f29f04415a7d1f623.bindPopup(popup_5ee1c1e9e9d726d146def0482ba800a8)
+        ;
+
+        
+    
+    
+            var marker_8678e40d6a347556e05298faef92f447 = L.marker(
+                [47.373, -122.179],
+                {
+}
+            ).addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var icon_fb5ce6e136ea3db9415ab91b58b08f69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8678e40d6a347556e05298faef92f447.setIcon(icon_fb5ce6e136ea3db9415ab91b58b08f69);
+        
+    
+        var popup_19d705c6f4382fca96aacc5112821014 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98b7bca4a5804cb367aba705f376637c = $(`<div id="html_98b7bca4a5804cb367aba705f376637c" style="width: 100.0%; height: 100.0%;">ID: 2122059199, Year: 2003 Bathrooms: 4.25 Lot: 5715.0sqft  </div>`)[0];
+                popup_19d705c6f4382fca96aacc5112821014.setContent(html_98b7bca4a5804cb367aba705f376637c);
+            
+        
+
+        marker_8678e40d6a347556e05298faef92f447.bindPopup(popup_19d705c6f4382fca96aacc5112821014)
+        ;
+
+        
+    
+    
+            var marker_9a38a5e0402275b80429b41d8210a2b9 = L.marker(
+                [47.3979, -122.416],
+                {
+}
+            ).addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var icon_f965e9ab5eb8e3ef0bfad3ee5803bec4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9a38a5e0402275b80429b41d8210a2b9.setIcon(icon_f965e9ab5eb8e3ef0bfad3ee5803bec4);
+        
+    
+        var popup_771c1f15bbe972a4b832f7040c612882 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66c0fdf4450150d1a5284cbe8e966f7a = $(`<div id="html_66c0fdf4450150d1a5284cbe8e966f7a" style="width: 100.0%; height: 100.0%;">ID: 1522039105, Year: 1976 Bathrooms: 4.25 Lot: 308080.0sqft  </div>`)[0];
+                popup_771c1f15bbe972a4b832f7040c612882.setContent(html_66c0fdf4450150d1a5284cbe8e966f7a);
+            
+        
+
+        marker_9a38a5e0402275b80429b41d8210a2b9.bindPopup(popup_771c1f15bbe972a4b832f7040c612882)
+        ;
+
+        
+    
+    
+            var marker_e29e8780485982183319f56fd321552d = L.marker(
+                [47.5753, -121.95],
+                {
+}
+            ).addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var icon_bd39c8ebd115ea77eb2ecf8a82a9630b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e29e8780485982183319f56fd321552d.setIcon(icon_bd39c8ebd115ea77eb2ecf8a82a9630b);
+        
+    
+        var popup_beddc401c1ed800a6128fa3a49a31193 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fca3a3888b403fd2e845c5f825117c2 = $(`<div id="html_1fca3a3888b403fd2e845c5f825117c2" style="width: 100.0%; height: 100.0%;">ID: 824079032, Year: 1964 Bathrooms: 1.75 Lot: 174240.0sqft  </div>`)[0];
+                popup_beddc401c1ed800a6128fa3a49a31193.setContent(html_1fca3a3888b403fd2e845c5f825117c2);
+            
+        
+
+        marker_e29e8780485982183319f56fd321552d.bindPopup(popup_beddc401c1ed800a6128fa3a49a31193)
+        ;
+
+        
+    
+    
+            var marker_fbed65bb8061d96881af2284c47ab4bb = L.marker(
+                [47.7617, -122.061],
+                {
+}
+            ).addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var icon_d5fc502b789428a479f30022648daa2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fbed65bb8061d96881af2284c47ab4bb.setIcon(icon_d5fc502b789428a479f30022648daa2c);
+        
+    
+        var popup_06ba98d33d2127883a1270086c5f633e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6b47cfaf53063e0fec8a9c2f2969ffc = $(`<div id="html_e6b47cfaf53063e0fec8a9c2f2969ffc" style="width: 100.0%; height: 100.0%;">ID: 826069002, Year: 1947 Bathrooms: 1.0 Lot: 368517.0sqft  </div>`)[0];
+                popup_06ba98d33d2127883a1270086c5f633e.setContent(html_e6b47cfaf53063e0fec8a9c2f2969ffc);
+            
+        
+
+        marker_fbed65bb8061d96881af2284c47ab4bb.bindPopup(popup_06ba98d33d2127883a1270086c5f633e)
+        ;
+
+        
+    
+    
+            var marker_d0b4421b0cad1f88b6eca58605a47c44 = L.marker(
+                [47.3714, -122.177],
+                {
+}
+            ).addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var icon_a4c7db1579d2ea4e8fdd68e10ede61e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d0b4421b0cad1f88b6eca58605a47c44.setIcon(icon_a4c7db1579d2ea4e8fdd68e10ede61e8);
+        
+    
+        var popup_31aaf80ef9faf688401a2ed91c74ad70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0feffa06d626d5be837dc8add3d16211 = $(`<div id="html_0feffa06d626d5be837dc8add3d16211" style="width: 100.0%; height: 100.0%;">ID: 2822059181, Year: 1910 Bathrooms: 2.0 Lot: 169448.0sqft  </div>`)[0];
+                popup_31aaf80ef9faf688401a2ed91c74ad70.setContent(html_0feffa06d626d5be837dc8add3d16211);
+            
+        
+
+        marker_d0b4421b0cad1f88b6eca58605a47c44.bindPopup(popup_31aaf80ef9faf688401a2ed91c74ad70)
+        ;
+
+        
+    
+    
+            var marker_25ea11de357c435d045f91ee23816bab = L.marker(
+                [47.4127, -122.071],
+                {
+}
+            ).addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var icon_6daa4c7043c30708768b092e22ca4fa0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_25ea11de357c435d045f91ee23816bab.setIcon(icon_6daa4c7043c30708768b092e22ca4fa0);
+        
+    
+        var popup_8eefe00332ac5baa2c8078b99080f050 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d1ec14afe37c8e0d4b6faff18d8739a = $(`<div id="html_0d1ec14afe37c8e0d4b6faff18d8739a" style="width: 100.0%; height: 100.0%;">ID: 822069029, Year: 1962 Bathrooms: 2.75 Lot: 223027.0sqft  </div>`)[0];
+                popup_8eefe00332ac5baa2c8078b99080f050.setContent(html_0d1ec14afe37c8e0d4b6faff18d8739a);
+            
+        
+
+        marker_25ea11de357c435d045f91ee23816bab.bindPopup(popup_8eefe00332ac5baa2c8078b99080f050)
+        ;
+
+        
+    
+    
+            var marker_68c40bc48c41f2aae9b1c90b59fc9342 = L.marker(
+                [47.3884, -122.404],
+                {
+}
+            ).addTo(map_ec4dbabc07c05f29527130b209f7c1c9);
+        
+    
+            var icon_172118da1b474ad0f07dad170d5d6b78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_68c40bc48c41f2aae9b1c90b59fc9342.setIcon(icon_172118da1b474ad0f07dad170d5d6b78);
+        
+    
+        var popup_ab43b3f0bea9c7342b6af027e2d68e4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_474805cddc2c970ca5eb3d62ecfd81c0 = $(`<div id="html_474805cddc2c970ca5eb3d62ecfd81c0" style="width: 100.0%; height: 100.0%;">ID: 2222039011, Year: 1963 Bathrooms: 1.75 Lot: 217800.0sqft  </div>`)[0];
+                popup_ab43b3f0bea9c7342b6af027e2d68e4b.setContent(html_474805cddc2c970ca5eb3d62ecfd81c0);
+            
+        
+
+        marker_68c40bc48c41f2aae9b1c90b59fc9342.bindPopup(popup_ab43b3f0bea9c7342b6af027e2d68e4b)
+        ;
+
+        
+    
+</script>
+</html>
